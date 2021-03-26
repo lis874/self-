@@ -24,16 +24,20 @@ body {
 }
 
 a:link {
-/*  color: white;*/
+  color: white;
   text-decoration: none;
+  background-color: none;
 }
 
 a:visited {
   color: white;
+  text-decoration: none;
+  background-color: none;
 }
 
 a:hover {
   text-decoration: none;
+  background-color: none;
   color:#809fff;
   cursor: pointer;
   transition: 1s;
