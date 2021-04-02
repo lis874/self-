@@ -83,21 +83,59 @@ sup{
 
 .view{
   position: fixed;
-  top: 4vh;
-  right: 2vw;
-  display: flex;
-  flex-wrap: wrap;
+  top: 2vh;
+  right: 1.8vw;
   width: 2.2vw;
   height: 2.5vh;
+  cursor: pointer;
+    font-size: 3vw;
+    z-index: 1;
 }
 
-.bar{
-  width: 1em;
-  height: .05em;
-  background-color: white;
-  z-index: 1;
+.view:hover{
+  color: #a6adf2;
   transition: 1s;
 }
+
+.menu{
+    font-size: 3vw;
+    text-align: right;
+    width: 34vw;
+    height: auto;
+    position: absolute;
+    right: 5vw;
+    top: 2vh;
+    opacity: 0;
+    z-index: 1;
+    transition: linear 1s;
+}
+
+.links{
+  padding: 1vw;
+}
+
+.opaque{
+   opacity: 1;
+   transition: 2s ease;
+}
+
+
+.toc{
+  height: 3vw;
+  position: fixed;
+  bottom: 1.8vw;
+  right: 2vw;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.toc:hover{
+ /* text-decoration: underline;*/
+  color:#809fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
 
 
 

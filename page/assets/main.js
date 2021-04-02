@@ -7,6 +7,10 @@ $("#callout").hover(function(){
     $("#pic").css("z-index","0");
   });
 
+$(".view").click(function(){
+  $(".menu").toggleClass('opaque');
+});
+
 
 // $(document).mousemove(function(e){
 // 	$('#pic').css({

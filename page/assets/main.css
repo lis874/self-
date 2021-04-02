@@ -14,6 +14,11 @@ body {
   src: url(recklesslight.otf);
 }
 
+@font-face{
+  font-family: recklessitalic;
+  src: url(RecklessTRIAL-LightItalic.otf);
+}
+
 
 
 ::-webkit-scrollbar-thumb {
@@ -28,7 +33,7 @@ body {
 }
 sup{
 /*	position: fixed;*/
-  font-family: acumin-pro, sans-serif;
+  font-family: neue-haas-grotesk-text, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2vw;
@@ -57,14 +62,17 @@ a:hover {
 }
 */
 
+#callout{
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #callout:hover{
   color:#809fff;
   transition: 1s;
   cursor: pointer;
-}
 
-.main{
-  
 }
 
 .text{
@@ -75,7 +83,7 @@ a:hover {
 	left:9vw;
 	width: 83vw;
   z-index: 1;
-	padding-bottom: 15vw;
+	padding-bottom: 18vw;
 }
 
 #name{
@@ -84,6 +92,13 @@ a:hover {
 	right: 0vw;	
   text-align: right;
   z-index: -1;
+}
+
+#next{
+  position: fixed;
+  right: 2vw;
+  bottom: 1.5vh;
+  font-size: 3vw;
 }
 
 
@@ -106,6 +121,60 @@ a:hover {
   top: 2vh;
   left: 2vw;
   font-size: 3vw;
+}
+
+.toc{
+  height: 3vw;
+  position: fixed;
+  bottom: 1.8vw;
+  right: 2vw;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 3vw;
+}
+
+.toc:hover{
+ /* text-decoration: underline;*/
+  color:#809fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.view{
+  position: fixed;
+  top: 2vh;
+  right: 1.8vw;
+  width: 2.2vw;
+  height: 2.5vh;
+  cursor: pointer;
+    font-size: 3vw;
+}
+
+.view:hover{
+  color: #a6adf2;
+  transition: 1s;
+}
+
+.menu{
+    font-size: 3vw;
+    text-align: right;
+    width: 34vw;
+    height: auto;
+    position: absolute;
+    right: 5vw;
+    top: 2vh;
+    opacity: 0;
+    z-index: 1;
+    transition: linear 1s;
+}
+
+.links{
+  padding: 1vw;
+}
+
+.opaque{
+   opacity: 1;
+   transition: 2s ease;
 }
 
 

@@ -27,7 +27,6 @@ var x = entries[Math.floor(Math.random()*entries.length)];
 document.getElementById('quote').innerHTML = x;
 
 
-
 $(".view").hover(function(){
     $(".bar").css("background-color","#a6adf2");
     }, function(){
@@ -35,7 +34,7 @@ $(".view").hover(function(){
   });
 
 
-$(".toc").click(function(){
+$(".view").click(function(){
   $(".menu").toggleClass('opaque');
 });
 
