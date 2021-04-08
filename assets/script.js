@@ -1,23 +1,23 @@
 
 var entries = [
 
-  '<a href="page/xing.html">' + '“There was a period of time that I hated my stuffed animals, because I was...”' + '</a>' + "<a href='page/marc.html'>" + "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>", 
+  '<a href="page/xing.html">' + '“There was a period of time that I hated my stuffed animals, because I was...”' + '</a>' + "<a href='page/marc.html'>" + "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>", 
 
-	'<a href="page/nick.html">' + '“As a child growing up in a predominantly white place, I struggled with...”' + '</a>' + "<a href='page/vi.html'>"+ "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>", 
+	'<a href="page/nick.html">' + '“As a child growing up in a predominantly white place, I struggled with...”' + '</a>' + "<a href='page/vi.html'>"+ "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>", 
 
-	'<a href="page/bianca.html">' + '“They exist as a promise I made to my God. There’s three of them...”' + '</a>' + "<a href='page/meme.html'>"+ "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>",
+	'<a href="page/bianca.html">' + '“They exist as a promise I made to my God. There’s three of them...”' + '</a>' + "<a href='page/meme.html'>"+ "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>",
 
-	'<a href="page/reed.html">' + '“I wrote about my good days, my bad days, and everything in between...”' + '</a>' + "<a href='page/maria.html'>" + "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>", 
+	'<a href="page/reed.html">' + '“I wrote about my good days, my bad days, and everything in between...”' + '</a>' + "<a href='page/maria.html'>" + "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>", 
 
-	'<a href="page/anson.html">' + '“In January 2020, I was lucky enough to get a second chance for interview...”' + '</a>' + "<a href='page/nicholas.html'>" + "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>", 
+	'<a href="page/anson.html">' + '“In January 2020, I was lucky enough to get a second chance for interview...”' + '</a>' + "<a href='page/nicholas.html'>" + "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>", 
 
-	'<a href="page/nora.html">' + '“They started off all pink and soft, but they’ve been through a lot...”' + '</a>' + "<a href='page/maria.html'>" + "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>",
+	'<a href="page/nora.html">' + '“They started off all pink and soft, but they’ve been through a lot...”' + '</a>' + "<a href='page/maria.html'>" + "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>",
 
-  '<a href="page/ken.html">' + '“I remember learning english words and phrases through the game...”' + '</a>' + "<a href='page/tata.html'>"+ "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>",
+  '<a href="page/ken.html">' + '“I remember learning english words and phrases through the game...”' + '</a>' + "<a href='page/tata.html'>"+ "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>",
 
-  '<a href="page/wallis.html">' + "“We always give each other weird nicknames that don't make any sense...”" + '</a>' + "<a href='page/ali.html'>"+ "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>",
+  '<a href="page/wallis.html">' + "“We always give each other weird nicknames that don't make any sense...”" + '</a>' + "<a href='page/ali.html'>"+ "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>",
 
-  '<a href="page/mimi.html">' + '“Growing up my mom was very spiritual and performed spiritual cleansings on me whenever I was down...”' + '</a>' + "<a href='page/ruby.html'>"+ "<sup>" + "{" + 1 + "}" + "</sup>" + "</a>",
+  '<a href="page/mimi.html">' + '“Growing up my mom was very spiritual and performed spiritual cleansings on me whenever I was down...”' + '</a>' + "<a href='page/ruby.html'>"+ "<sup>" + "{" + " " + 1 + " " + "}" + "</sup>" + "</a>",
 	];
 
 
@@ -39,15 +39,26 @@ $(".view").click(function(){
 });
 
 
-// $("sup").click(function(){
-//   $(".xing").css("opacity","1");
-//   $("#qc").css({"top": "5vw", "left": "27vw"});
-// });
+// var timedelay = 1;
+// function delayCheck(){
+//   if(timedelay == 5)
+// {
+//   $('#quote').fadeOut();
+//   timedelay = 1;
+// }
+//   timedelay = timedelay+1;
+// }
 
-// $("#sup2").click(function(){
-//   $(".aldrin").css("opacity","1");
-//   $("#qc").css({"top": "10vw", "left": "10vw"});
+// $(document).mousemove(function() {
+//   $('#quote').fadeIn();
+//   timedelay = 1;
+//   clearInterval(_delay);
+// _delay = setInterval(delayCheck, 500);
 // });
+// // page loads starts delay timer
+// _delay = setInterval(delayCheck, 500)
+
+
 
 
 

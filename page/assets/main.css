@@ -15,8 +15,8 @@ body {
 }
 
 @font-face{
-  font-family: recklessitalic;
-  src: url(RecklessTRIAL-LightItalic.otf);
+  font-family: maison;
+  src: url(MaisonNeueTRIAL-Light.otf);
 }
 
 
@@ -33,10 +33,10 @@ body {
 }
 sup{
 /*	position: fixed;*/
-  font-family: neue-haas-grotesk-text, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2vw;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2.2vw;
 }
 
 a:link {
@@ -57,15 +57,16 @@ a:hover {
   transition: 1s;
 }
 
-/*#callout{
-  text-decoration: dotted underline;
-}
-*/
+
 
 #callout{
-  font-family: neue-haas-grotesk-text, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+ font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+display: none;
+
+/*opacity: 0;*/
+/*transition: 3s;*/
 }
 
 #callout:hover{
@@ -77,11 +78,11 @@ a:hover {
 
 .text{
   font-size: 3vw;
-  line-height: 1.3;
+  line-height: 1.2;
 	position: absolute;
 	top: 10vw;
-	left:9vw;
-	width: 83vw;
+	left:9.5vw;
+	width: 82vw;
   z-index: 1;
 	padding-bottom: 18vw;
 }
@@ -144,7 +145,7 @@ a:hover {
   position: fixed;
   top: 2vh;
   right: 1.8vw;
-  width: 2.2vw;
+  /*width: 2.2vw;*/
   height: 2.5vh;
   cursor: pointer;
     font-size: 3vw;
@@ -160,7 +161,7 @@ a:hover {
     text-align: right;
     width: 34vw;
     height: auto;
-    position: absolute;
+    position: fixed;
     right: 5vw;
     top: 2vh;
     opacity: 0;
@@ -175,6 +176,12 @@ a:hover {
 .opaque{
    opacity: 1;
    transition: 2s ease;
+}
+
+.image{
+  width: 19.9vw;
+  z-index: 3;
+  position: relative;
 }
 
 

@@ -18,9 +18,9 @@ body {
   src: url(signifierregular.woff);
 }
 
-@font-face {
+@font-face{
   font-family: maison;
-  src: url(assets/AkzidenzGroteskRoman.ttf);
+  src: url(MaisonNeueTRIAL-Book.otf);
 }
 
 a:link {
@@ -44,8 +44,8 @@ a:hover {
 }
 
 sup{
-  font-size: 2vw;
-  font-family: neue-haas-grotesk-text, sans-serif;
+  font-size: 2.2vw;
+  font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 400;
   font-style: normal;
 
@@ -61,7 +61,7 @@ sup:hover{
 .toc{
   height: 3vw;
   position: fixed;
-  bottom: 3vh;
+  bottom: 1.8vw;
   right: 2vw;
   z-index: 1;
   cursor: pointer;
@@ -168,7 +168,7 @@ sup:hover{
   line-height: 1.3;
   position: absolute;
   top: 10vw;
-  left:9vw;
+  left:9.5vw;
   width: 55vw;
   z-index: 1;
   padding-bottom: 18vw;
@@ -187,7 +187,7 @@ sup:hover{
 
 .form{
   text-decoration: underline;
-  font-family: neue-haas-grotesk-text, sans-serif;
+  font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
