@@ -12,13 +12,13 @@ $(".view").click(function(){
 });
 
 
-// $(function(){
-//    setTimeout(function(){
-//      // $('#callout').fadeIn(3500);
 
-//      $('#callout').show(2500,'linear');
-//    },3000);
-// });
+   // setTimeout(function(){
+   //   $('#callout').fadeIn(5000);
+
+   //   // $('#callout').show(2500,'linear');
+   // },3000);
+
 
 
 $("#callout").fadeIn(5000);

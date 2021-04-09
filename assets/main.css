@@ -8,6 +8,43 @@ body {
   font-size: 3vw;
 }
 
+@media screen and (min-width: 700px) {
+
+    .mobile{display: none;}
+    }
+
+   
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 7vw;
+    overflow: hidden;
+    
+  }
+
+
+  .mobile{
+    position: fixed;
+  top: 5vh;
+  left: 10vw;
+  width: 70vw;
+  display: block;
+  }
+
+  .container{
+    display: none;
+  }
+
+  .view{
+    display: none;
+  }
+
+  #quote{
+    display: none;
+  }
+ 
+}
+
 @font-face{
   font-family: reckless;
   src: url(recklesslight.otf);
@@ -206,9 +243,6 @@ sup:hover{
   top: 2vh;
   left: 2vw;
 }
-
-
-
 
 
 
