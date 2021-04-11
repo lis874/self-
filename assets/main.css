@@ -8,42 +8,6 @@ body {
   font-size: 3vw;
 }
 
-@media screen and (min-width: 700px) {
-
-    .mobile{display: none;}
-    }
-
-   
-
-@media only screen and (max-width: 500px) {
-  body {
-    font-size: 7vw;
-    overflow: hidden;
-    
-  }
-
-
-  .mobile{
-    position: fixed;
-  top: 5vh;
-  left: 10vw;
-  width: 70vw;
-  display: block;
-  }
-
-  .container{
-    display: none;
-  }
-
-  .view{
-    display: none;
-  }
-
-  #quote{
-    display: none;
-  }
- 
-}
 
 @font-face{
   font-family: reckless;
@@ -83,7 +47,7 @@ a:hover {
 sup{
   font-size: 2.2vw;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 
 }
@@ -119,7 +83,7 @@ sup:hover{
   transition: 3s;
   padding-bottom: 5vw;
 /*  transition: 2s;*/
-  animation: float 10s linear infinite;
+  animation: float 8s linear infinite;
   animation-fill-mode: forwards;
 }
 
@@ -225,7 +189,7 @@ sup:hover{
 .form{
   text-decoration: underline;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -246,6 +210,50 @@ sup:hover{
 
 
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 8vw;
+    overflow: hidden;
+  }
+  sup{
+    font-size: 6vw;
+  }
+  .toc{
+    display: none;
+  }
+  .view{
+    top:5vh;
+    right:8vw;
+    font-size: 9vw;
+    width:auto;
+  }
+  .menu{
+
+    height: auto;
+    text-align: right;
+    top: 10vh;
+    right: 8vw;
+    font-size: 8vw;
+  }
+  #qc{
+    left: 8vw;
+ /*   top: 50vh;*/
+    height: auto;
+    width: 78vw;
+    position: fixed;
+    animation: none;
+  }
+
+  .container{
+    top:5vh;
+    left: 8vw;
+  }
+  .main{
+    font-size: 8vw;
+    width: 73vw;
+  }
+
+}  
 
 
 

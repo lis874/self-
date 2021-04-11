@@ -34,7 +34,7 @@ body {
 sup{
 /*	position: fixed;*/
   font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 font-size: 2.2vw;
 }
@@ -61,7 +61,7 @@ a:hover {
 
 #callout{
  font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 display: none;
 
@@ -81,8 +81,8 @@ display: none;
   line-height: 1.2;
 	position: absolute;
 	top: 10vw;
-	left:9.5vw;
-	width: 82vw;
+	left:10vw;
+	width: 81vw;
   z-index: 1;
 	padding-bottom: 18vw;
 }
@@ -185,4 +185,53 @@ display: none;
 }
 
 
+@media only screen and (max-width: 600px) {
 
+  img{
+
+  }
+ 
+  sup{
+    font-size: 6vw;
+  }
+  .toc{
+    display: none;
+  }
+  .view{
+    top:5vh;
+    right:8vw;
+    font-size: 9vw;
+    width:auto;
+  }
+
+  .menu{
+
+    height: auto;
+    text-align: right;
+    top: 10vh;
+    right: 8vw;
+    font-size: 8vw;
+   
+  }
+
+  .text{
+    left: 8vw;
+    top: 28vh;
+    height: auto;
+    width: 78vw;
+    font-size: 8vw;
+  }
+
+  .container{
+    top:5vh;
+    left: 8vw;
+    font-size: 8vw;
+  }
+  #name{
+    margin-top: 5vh;
+  }
+  #pic{
+    width: 60vw;
+  }
+
+}  
