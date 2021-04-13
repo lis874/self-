@@ -13,6 +13,12 @@ body {
   src: url(recklesslight.otf);
 }
 
+@font-face{
+  font-family: recklessitalic;
+  src: url(RecklessTRIAL-LightItalic.otf);
+}
+
+
 ::-webkit-scrollbar-thumb {
 	border: 2px solid white;
 	display: block;
@@ -22,6 +28,14 @@ body {
 	width: 0.2vw;
 	height: 0.2vw;
 	display: block;
+}
+
+sup{
+/*  position: fixed;*/
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 2.2vw;
 }
 
 a:link {
@@ -76,6 +90,7 @@ img:hover{
     position: fixed;
     right: 5vw;
     top: 2vh;
+    visibility: hidden;
     opacity: 0;
     z-index: 1;
     transition: linear 1s;
@@ -86,6 +101,7 @@ img:hover{
 }
 
 .opaque{
+  visibility: visible;
    opacity: 1;
    transition: 2s ease;
 }
@@ -138,10 +154,71 @@ img:hover{
   position: absolute;
   top: 10vw;
   left:10vw;
-  width: 56vw;
+  width: 55vw;
   z-index: 1;
   padding-bottom: 10vh;
 }
+
+#add1{
+  font-size: 1.7vw;
+}
+
+#add1:hover{
+  color:#809fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#add:hover{
+  color:#809fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.notes{
+  position: absolute;
+  width: 55vw;
+  margin-top: 10vh;
+  right: -26vw;
+  font-size: 2vw;
+  padding-bottom: 20vh;
+  display: none;
+}
+.story{
+  position: absolute;
+  width: 55vw;
+  margin-top: 20vh;
+  left: -26vw;
+  font-size: 2vw;
+  padding-bottom: 20vh;
+  display: none;
+}
+#indent{
+  position: relative;
+  right: -13vw;
+}
+
+#epi{
+
+  position: relative;
+  width: 55vw;
+  margin-top: 10vh;
+  right: -13vw;
+  font-size: 2vw;
+  margin-bottom: 20vh;
+  font-family: recklessitalic;
+}
+
+#date{
+  font-size: 1.5vw;
+}
+#name{
+    position: absolute;
+    padding-top: 2vw;
+    right: 0vw; 
+    text-align: right;
+    z-index: -1;
+  }
 
 @media only screen and (max-width: 600px) {
   body {
@@ -164,6 +241,7 @@ img:hover{
     top: 10vh;
     right: 8vw;
     font-size: 8vw;
+    z-index: 2;
   }
 
   .container{
@@ -173,7 +251,7 @@ img:hover{
   }
   .main{
     top: 15vh;
-    left: 7vw;
+    left: 8vw;
     /* font-size: 15vw; */
     width: 80vw;
     transform: none;
@@ -182,10 +260,47 @@ img:hover{
     font-size: 8vw;
     padding: 5vw;
   }
+
+  #add{
+    font-size:6vw ;
+  }
+
+  #add1{
+    font-size:6vw ;
+  }
+
   .about{
     top: 20vh;
     width: 80vw;
+    left: 8vw;
     font-size: 8vw;
+  }
+  .notes{
+    position: relative;
+    left: 0vw;
+    font-size: 6vw;
+    width: 80vw;
+    padding-bottom: 5vh;
+  }
+  .story{
+    position: relative;
+    left: 0vw;
+    font-size: 6vw;
+    width: 80vw;
+    padding-bottom: 5vh;
+  }
+  #epi{
+    position: relative;
+    left: 0vw;
+    font-size: 6vw;
+    width: 80vw;
+    padding-bottom: 5vh;
+  }
+  #indent{
+    right: 0vw;
+  }
+  #date{
+    font-size:4vw;
   }
 
 }  

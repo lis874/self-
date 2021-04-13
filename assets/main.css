@@ -19,10 +19,6 @@ body {
   src: url(signifierregular.woff);
 }
 
-@font-face{
-  font-family: maison;
-  src: url(MaisonNeueTRIAL-Book.otf);
-}
 
 a:link {
   color: white;
@@ -132,6 +128,7 @@ sup:hover{
     position: absolute;
     right: 5vw;
     top: 2vh;
+    visibility: hidden;
     opacity: 0;
     z-index: 1;
     transition: linear 1s;
@@ -182,7 +179,8 @@ sup:hover{
 
 
 .opaque{
-   opacity: 1;
+   visibility: visible;
+  opacity: 1;
    transition: 2s ease;
 }
 
@@ -234,6 +232,7 @@ sup:hover{
     top: 10vh;
     right: 8vw;
     font-size: 8vw;
+    z-index: 2;
   }
   #qc{
     left: 8vw;

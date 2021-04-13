@@ -164,6 +164,7 @@ display: none;
     position: fixed;
     right: 5vw;
     top: 2vh;
+    visibility: hidden;
     opacity: 0;
     z-index: 1;
     transition: linear 1s;
@@ -174,6 +175,7 @@ display: none;
 }
 
 .opaque{
+    visibility: visible;
    opacity: 1;
    transition: 2s ease;
 }
@@ -205,7 +207,6 @@ display: none;
   }
 
   .menu{
-
     height: auto;
     text-align: right;
     top: 10vh;

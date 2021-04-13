@@ -38,6 +38,11 @@ $(".view").click(function(){
   $(".menu").toggleClass('opaque');
 });
 
+$("#add").click(function(){
+  $(".notes").fadeIn(5000);
+});
+
+
 
 // var timedelay = 1;
 // function delayCheck(){
