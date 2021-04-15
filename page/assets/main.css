@@ -145,7 +145,7 @@ display: none;
   position: fixed;
   top: 2vh;
   right: 1.8vw;
-  /*width: 2.2vw;*/
+  width: 2.2vw;
   height: 2.5vh;
   cursor: pointer;
     font-size: 3vw;

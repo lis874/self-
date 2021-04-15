@@ -31,7 +31,6 @@ body {
 }
 
 sup{
-/*  position: fixed;*/
   font-family: neue-haas-grotesk-display, sans-serif;
 font-weight: 500;
 font-style: normal;
@@ -41,7 +40,6 @@ font-size: 2.2vw;
 a:link {
   color: white;
   text-decoration: none;
-/*  display: flex;*/
 
 }
 
@@ -50,14 +48,13 @@ a:visited {
 }
 
 a:hover {
- /* background-color: blue;*/
   color:#809fff;
   cursor: pointer;
   transition: 1s;
 }
 
 img{
-  width: 13vw;
+  width: 15vw;
   filter: grayscale(100%);
 }
 
@@ -116,25 +113,15 @@ img:hover{
 	justify-content: flex-start;
 	align-content: flex-start;
   align-items: flex-end;
-	left: 50vw;
-  	top: 20vw;
-	width: 82vw;
+	left: 5vw;
+  	top: 10vw;
+	width: 90vw;
 	padding-bottom: 5vw;
-	transform: translate(-50%, -10%);
 }
 
 .text{
-	/*width: 21vw;
-	height: auto;
-	position: relative;
-	transition: 1s;
-	border: 0.1vw solid white;
-	padding: 3vw;
-	align-content: center;
-	vertical-align: middle;
-	font-size: 2vw;*/
   margin-bottom: 2vw;
-  padding: 1.7vw;
+  padding: 1.5vw;
   font-size: 1.4vw;
 
 }
@@ -196,6 +183,7 @@ img:hover{
 #indent{
   position: relative;
   right: -13vw;
+  font-family: reckless;
 }
 
 #epi{

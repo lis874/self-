@@ -49,7 +49,6 @@ sup{
 }
 
 sup:hover{
- /* text-decoration: underline;*/
   color:#809fff;
   cursor: pointer;
   transition: 1s;
@@ -65,7 +64,6 @@ sup:hover{
 }
 
 .toc:hover{
- /* text-decoration: underline;*/
   color:#809fff;
   cursor: pointer;
   transition: 1s;
@@ -78,7 +76,6 @@ sup:hover{
   top: 40vh;
   transition: 3s;
   padding-bottom: 5vw;
-/*  transition: 2s;*/
   animation: float 8s linear infinite;
   animation-fill-mode: forwards;
 }
@@ -97,10 +94,6 @@ sup:hover{
   z-index: 1;
   transition: 1s;
 }
-
-/*.bar:hover{
-  background-color: #a6adf2;
-}*/
 
 #quote{
   /*width: 35vw;*/
@@ -143,9 +136,6 @@ sup:hover{
 .main{
   font-size: 3vw;
 	position: absolute;
-/*	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;*/
 	top: 38vh;
 	left: 9vw;
 	width: 55vw;
@@ -173,11 +163,6 @@ sup:hover{
 }
 
 
-/*.text:hover {
-    animation-play-state: paused;
-}*/
-
-
 .opaque{
    visibility: visible;
   opacity: 1;
@@ -200,7 +185,6 @@ sup:hover{
 
 .container {
   width: auto;
-/*  background-color: white;*/
   position: fixed;
   top: 2vh;
   left: 2vw;
