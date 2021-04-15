@@ -219,7 +219,7 @@ display: none;
     left: 8vw;
     top: 28vh;
     height: auto;
-    width: 78vw;
+    width: 83vw;
     font-size: 8vw;
   }
 
@@ -229,7 +229,8 @@ display: none;
     font-size: 8vw;
   }
   #name{
-    margin-top: 5vh;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
   }
   #pic{
     width: 60vw;
